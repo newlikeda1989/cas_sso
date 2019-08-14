@@ -1,0 +1,13 @@
+### server setting
+server:
+  context-path: /cas  
+  port: 8443
+  ssl:   
+    enabled: true
+    key-alias: cas.server.com
+    key-store: file:/etc/cas/casServer.keystore
+    key-store-password: changeit
+    key-password: changeit    
+  max-http-header-size: 2097152
+  use-forward-headers: true
+  connection-timeout: 20000
