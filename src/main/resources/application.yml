@@ -1,7 +1,7 @@
 ### server setting
 server:
   context-path: /cas  
-  port: 8443
+#  port: 8443
   ssl:   
     enabled: true
     key-alias: cas.server.com
